@@ -45,7 +45,7 @@ def test():
 
 
         #NOTIFY IF ISS ON TOP OF THE SAME COUNTRY AS THE USER
-        if 1 == 1:
+        if countryIss == countryUser:
             v2 = 0
             if v2 != 1:
                 toast = ToastNotifier()
